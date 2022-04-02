@@ -1,46 +1,29 @@
 import React from "react";
 
-export default function() {
-  function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');
-}
+export default function NavBar(){
   return (
-    <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Navigation bar</title>
-  </head>
-  <body>
-    <header>
-      <div id="brand"><a href="/">U-LIMS</a></div>
-      <nav>
-        <ul>
-          <li><a href="/home">Home</a></li>
-          <li><a href="/products">Test Results</a></li>
-          <li><a href="/about">Test Request Register</a></li>
-          <li id="login"><a href="/login" >Login</a></li>
-          <li id="signup"><a href="/signup">Signup</a></li>
-        </ul>
-      </nav>
-      <div id="hamburger-icon" onclick={toggleMobileMenu}>
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <ul class="mobile-menu">
-        <li><a href="/home">Home</a></li>
-          <li><a href="/products">Test Results</a></li>
-          <li><a href="/about">Test Request Register</a></li>
-          <li id="login"><a href="/login" >Login</a></li>
-          <li id="signup"><a href="/signup">Signup</a></li>
-        </ul>
+    <div className="nav">
+    <input type="checkbox" id="nav-check"/>
+    <div className="nav-header">
+      <div className="nav-title">
+        JoGeek
       </div>
-    </header>
-    <script src="index.js"></script>
-  </body>
-</html>
-
+    </div>
+    <div className="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div className="nav-links">
+      <a href="//github.io/jo_geek" target="_blank">Home</a>
+      <a href="http://stackoverflow.com/users/4084003/" target="_blank">Login</a>
+      <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank"></a>
+      <a href="https://codepen.io/jo_Geek/" target="_blank">Logout</a>
+      <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">Lab</a>
+    </div>
+  </div>
   )
 }
