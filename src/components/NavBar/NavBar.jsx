@@ -6,7 +6,7 @@ export default function NavBar(){
     <input type="checkbox" id="nav-check"/>
     <div className="nav-header">
       <div className="nav-title">
-        JoGeek
+        U-LIMS
       </div>
     </div>
     <div className="nav-btn">
