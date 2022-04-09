@@ -17,7 +17,7 @@ export default function Article () {
   const addArticle = (e) => {
     e.preventDefault();
     if(articleName == '' || compoundType == '' || department == ''){
-      console.error("All fields Must Be Provided")
+     return console.error("All fields Must Be Provided")
     }
     console.log(articleName)
     console.log(compoundType)
@@ -28,12 +28,7 @@ export default function Article () {
       department: department
     }
     console.log(article)
-    // localStorage.set("Articl Name", articleName)
-
-
-    setArticleName('');
-    setCompoundType('');
-    setDepartment('');
+    localStorage.setItem(article);
 
 
   }
