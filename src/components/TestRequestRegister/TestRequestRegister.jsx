@@ -1,6 +1,6 @@
 import React from "react";
-import ReactTable from "react-table";  
-import "react-table/react-table.css";
+import MaterialTable from 'material-table'
+
 
 const TestRequestRegister = () => {
   const data = [
@@ -53,7 +53,10 @@ const TestRequestRegister = () => {
   accessor: "requestedTests"
 }]
   return (
-    <div>Test Request Register</div>
+    <div>Test Request Register
+       <MaterialTable columns={columns} daa={data} />
+    </div>
+   
   );
 };
 export default TestRequestRegister;
