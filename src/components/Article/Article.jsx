@@ -22,6 +22,13 @@ export default function Article () {
     console.log(articleName)
     console.log(compoundType)
     console.log(department)
+    let article = {
+      articleName: articleName,
+      compoundType: compoundType,
+      department: department
+    }
+    console.log(article)
+    // localStorage.set("Articl Name", articleName)
 
 
     setArticleName('');
