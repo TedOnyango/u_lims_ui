@@ -4,13 +4,15 @@ import "./style.css";
 import NavBar from "./components/NavBar/NavBar";
 import TestRequestRegister from "./components/TestRequestRegister/TestRequestRegister"
 import Login from "./components/Login/Login";
+import Article from "./components/Article/Article";
 
 export default function App() {
   return (
     <div>
       <NavBar />
       {/* <TestRequestRegister /> */}
-      <Login />
+      {/* <Login /> */}
+      <Article />
     
     </div>
   );
