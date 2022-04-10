@@ -4,7 +4,7 @@ import "./style.css";
 import NavBar from "./components/NavBar/NavBar";
 import TestRequestRegister from "./components/TestRequestRegister/TestRequestRegister"
 import Login from "./components/Login/Login";
-import Article from "./components/Article/Article";
+import Article from "./components/Article/AddArticle";
 
 export default function App() {
   return (

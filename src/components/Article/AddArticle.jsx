@@ -1,6 +1,7 @@
-import React,  { useState } from "react";
+import React,  { useState, useEffect } from "react";
 
-export default function Article () {
+export default function AddArticle () {
+  const LOCAL_STORAGE_KE = "articles";
   const [articleName, setArticleName] = useState('');
   const [compoundType, setCompoundType] = useState('');
   const [department, setDepartment] = useState('');
@@ -16,22 +17,13 @@ export default function Article () {
    
   const addArticle = (e) => {
     e.preventDefault();
-    if(articleName == '' || compoundType == '' || department == ''){
-     return console.error("All fields Must Be Provided")
-    }
-    console.log(articleName)
-    console.log(compoundType)
-    console.log(department)
-    let article = {
-      articleName: articleName,
-      compoundType: compoundType,
-      department: department
-    }
-    console.log(article)
-    localStorage.setItem(article);
-
-
+   
+    
   }
+  // useEffect(() => {
+  //   window.localStorage.setItem('article', JSON.stringify(article));
+  //  }, [article]);
+
   return (
     <div>
       <h1>This is Article</h1>
