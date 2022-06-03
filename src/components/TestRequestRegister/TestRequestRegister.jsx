@@ -1,12 +1,10 @@
 import React from "react";
 import "./TestRequestTable.css";
 import moment from "moment";
-import { useHistory } from "react-router-dom";
 
 
 
 const TestRequestRegister = () => {
-  const history = useHistory();
   const handleClickRowItem = (item) => {
     console.log(item);
   }
