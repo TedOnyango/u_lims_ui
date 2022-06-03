@@ -29,9 +29,32 @@ const TestRequestRegister = () => {
       requestedTests: "Specific Gravity, Tensile, Elongation at Break"
     }
   ]
-  
+  const columns = [{
+    Header: "Id",
+    accessor: "id"
+  }, 
+  {
+    Header: "Date",
+    accessor: "date"
+  },
+{
+  Header: "Article Name",
+  accessor: "articleName"
+}, 
+{
+  Header: "compound Type",
+  accessor: "compoundType"
+},
+{
+  Header: "Department",
+  accessor: "department"
+},{
+  Header: "Tests Requested",
+  accessor: "requestedTests"
+}]
   return (
     <div>Test Request Register
+       <MaterialTable columns={columns} daa={data} />
     </div>
    
   );
