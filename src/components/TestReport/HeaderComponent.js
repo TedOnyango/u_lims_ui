@@ -5,13 +5,14 @@ const HeaderComponent = () => {
   return (
     <label className="header-container">
       <div className="conpany-detials">
-        <img className="log-image" src="/logo.png" alt="company-logo" />
-        <p>Umoja Rubber Products Limited</p>
-        <p>P. O. Box 452-80109 MTWAPA </p>
-        <p>Mombasa-Malindi Highway, Kikambala</p>
-        <p>Tel.: +254 722 204 994</p>
-        <p>www.umojaafrica.com</p>
-        <p>Umoja Rubber Products Ltd is an
+        <img className="log-image" src="https://picsum.photos/200/300
+" alt="company-logo" />
+        <p id="details-text">Umoja Rubber Products Limited</p>
+        <p id="details-text">P. O. Box 452-80109 MTWAPA </p>
+        <p id="details-text">Mombasa-Malindi Highway, Kikambala</p>
+        <p id="details-text">Tel.: +254 722 204 994</p>
+        <p id="details-text">www.umojaafrica.com</p>
+        <p id="details-text">Umoja Rubber Products Ltd is an
 ISO 9001:2015 Certified Company</p>
 
     </div>

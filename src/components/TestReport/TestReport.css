@@ -12,6 +12,17 @@ body {
 }
 hr {
   color: black;
-  overflow: auto;
   
+}
+img {
+  float: left;
+  max-width: 150px;
+  max-height: 550px;
+}
+.content-details {
+  display: flex;
+}
+
+#details-text {
+  margin-left: 5px;
 }
