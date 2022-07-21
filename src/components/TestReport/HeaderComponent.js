@@ -1,12 +1,11 @@
 import React from 'react';
 import './TestReport.css';
 
-
 const HeaderComponent = () => {
   return (
     <label className="header-container">
       <div className="conpany-detials">
-        <img />
+        <img src='' alt="company-logo" />
         <p>Umoja Rubber Products Limited</p>
         <p>P. O. Box 452-80109 MTWAPA </p>
         <p>Mombasa-Malindi Highway, Kikambala</p>
