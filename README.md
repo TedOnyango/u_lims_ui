@@ -1,3 +1,2 @@
-# react-cxmfpm
+# Laboratory Information Management System UI
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-cxmfpm)
