@@ -1,9 +1,10 @@
 import React from 'react';
+import "./TestDetails.css"
 
 const TestDetails = () => {
   return(
-    <div>
-      <label>
+    <div className="container">
+      <label className="test-details">
         <p>Date:</p>
         <p>Test Report No.:</p>
         <p>Test Ref No.:</p>
