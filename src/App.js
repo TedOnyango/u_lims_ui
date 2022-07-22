@@ -9,6 +9,8 @@ import TestDetails from "./components/TestReport/TestDetails/TestDetails";
 import TestResults from "./components/TestReport/TestResults/TestResults";
 import Remarks from "./components/TestReport/Remarks/Remarks";
 import TestDoneBy from "./components/TestReport/DoneBy/TestDoneBy";
+import Footer from "./components/TestReport/Footer/Footer";
+
 
 
 
@@ -24,6 +26,7 @@ export default function App() {
       <TestResults />
       <Remarks />
       <TestDoneBy />
+      <Footer />
     
     </div>
   );
