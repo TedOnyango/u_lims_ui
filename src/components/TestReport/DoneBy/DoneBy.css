@@ -1,0 +1,7 @@
+.done-by-container {
+  font-weight: bold;
+  display: flex;
+}
+.done-by-container p {
+  width: 50%;
+}
