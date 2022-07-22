@@ -18,18 +18,18 @@ const HeaderComponent = () => {
 ISO 9001:2015 Certified Company</p>
 
     </div>
-    <hr></hr>
+    <hr className="hr1"></hr>
     <div className="lab-report-text">
-        <p className="lab-report-text">Laboratory Test Report</p>
+        <p>Laboratory Test Report</p>
     </div>
     <hr className="hr2"></hr>
 
     <div className="lab-details">
         <p id="lab-detials-text">Quality Control Laboratory</p>
-        <p id="lab-detials-text">Laboratory@umojarubber.comy</p>
-        <p id="lab-detials-text">Doc Ref: URPL/QMSFM/QCLAB/8.6</p>
-        <p id="lab-detials-text">Version: 1.2</p>
-        <p id="lab-detials-text">Page: 1 of 1</p>
+        <p id="lab-detials-text"><a className="email-link"><u>Laboratory@umojarubber.comy</u></a></p>
+        <p id="lab-detials-text"><strong>Doc Ref </strong>: URPL/QMSFM/QCLAB/8.6</p>
+        <p id="lab-detials-text"><strong>Version</strong>: 1.2</p>
+        <p id="lab-detials-text"><strong>Page</strong>: 1 of 1</p>
 
     </div>
     </label>

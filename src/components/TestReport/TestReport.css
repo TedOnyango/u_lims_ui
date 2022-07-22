@@ -7,7 +7,7 @@ body {
 .header-container {
   border: 0.1rem solid;
   margin: 10px 10px;
-  width: 95%;
+  width: 90%;
   display: flex;
 }
 hr {
@@ -31,23 +31,32 @@ img {
   
 
 }
-.umoja-link {
+.umoja-link, .email-link {
   color: blue;
 }
 .lab-report-text {
   display: flex;
   align-items: center;
   color: navy;
-  min-width: 20%;
   font-weight: bold;
   font-size: 20px;
+  width: 45%;
+  margin: 0 auto;
+  justify-content: center;
 }
 .lab-details {
+  width: 30%;
+  
   
 }
 #lab-detials-text {
   margin: 0 auto;
+ 
 }
 .hr2 {
   margin: 0;
 }
+.hr1 {
+  margin: 0;
+}
+
