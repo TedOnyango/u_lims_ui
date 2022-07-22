@@ -13,6 +13,7 @@ body {
 hr {
   color: black;
   
+  
 }
 img {
   float: left;
@@ -29,4 +30,24 @@ img {
   margin: 0 auto;
   
 
+}
+.umoja-link {
+  color: blue;
+}
+.lab-report-text {
+  display: flex;
+  align-items: center;
+  color: navy;
+  min-width: 20%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.lab-details {
+  
+}
+#lab-detials-text {
+  margin: 0 auto;
+}
+.hr2 {
+  margin: 0;
 }
