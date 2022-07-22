@@ -5,8 +5,10 @@ const HeaderComponent = () => {
   return (
     <label className="header-container">
       <div className="conpany-detials">
-        <img className="log-image" src="https://picsum.photos/200/300
+        <div>
+          <img className="log-image" src="https://picsum.photos/200/300
 " alt="company-logo" />
+</div>
         <p id="details-text">Umoja Rubber Products Limited</p>
         <p id="details-text">P. O. Box 452-80109 MTWAPA </p>
         <p id="details-text">Mombasa-Malindi Highway, Kikambala</p>
