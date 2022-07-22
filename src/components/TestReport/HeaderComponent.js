@@ -14,8 +14,7 @@ const HeaderComponent = () => {
         <p id="details-text">Mombasa-Malindi Highway, Kikambala</p>
         <p id="details-text">Tel.: +254 722 204 994</p>
         <p id="details-text"><a className="umoja-link"><u>www.umojaafrica.com</u></a></p>
-        <p id="details-text">Umoja Rubber Products Ltd is an
-ISO 9001:2015 Certified Company</p>
+        <p id="details-text">Umoja Rubber Products Ltd is an ISO 9001:2015 Certified Company</p>
 
     </div>
     <hr className="hr1"></hr>
