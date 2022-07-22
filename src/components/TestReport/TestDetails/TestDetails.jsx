@@ -19,8 +19,8 @@ const TestDetails = () => {
         
 
       </label>
-      <label>
-        <img src="" alt="sample-image"/>
+      <label className="img">
+        <img src="https://picsum.photos/200/400" alt="sample-image"/>
       </label>
     </div>
 

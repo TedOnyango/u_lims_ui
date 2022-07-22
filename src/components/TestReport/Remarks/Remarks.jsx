@@ -1,13 +1,14 @@
 import React from 'react';
+import "./Remarks.css";
 
 const Remarks = () => {
   return(
     <div>
-    <div>
+    <div className="remarks">
       <h3>Remarks/Comments</h3>
-    </div>
-    <div>
+      <div>
       <p>The test sample performed as shown above</p>
+    </div>
     </div>
       
     </div>
