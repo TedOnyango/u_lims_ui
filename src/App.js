@@ -4,14 +4,7 @@ import "./style.css";
 import NavBar from "./components/NavBar/NavBar";
 import TestRequestRegister from "./components/TestRequestRegister/TestRequestRegister";
 import DensityChart from "./components/Analytics/DensityChart";
-import HeaderComponent from "./components/TestReport/HeaderComponent/HeaderComponent";
-import TestDetails from "./components/TestReport/TestDetails/TestDetails";
-import TestResults from "./components/TestReport/TestResults/TestResults";
-import Remarks from "./components/TestReport/Remarks/Remarks";
-import TestDoneBy from "./components/TestReport/DoneBy/TestDoneBy";
-import Footer from "./components/TestReport/Footer/Footer";
-
-
+import GeneratePdf from "./components/Printing/GeneratePdf";
 
 
 export default function App() {
@@ -21,12 +14,8 @@ export default function App() {
       {/* <TestRequestRegister /> */}
       {/* <DensityChart /> */}
       {/* <Login /> */}
-      <HeaderComponent />
-      <TestDetails />
-      <TestResults />
-      <Remarks />
-      <TestDoneBy />
-      <Footer />
+      <GeneratePdf />
+     
     
     </div>
   );
