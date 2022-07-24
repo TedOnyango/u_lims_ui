@@ -1,4 +1,5 @@
 import React from 'react';
+import "./PrintingContainer.css"
 
 
 
@@ -12,7 +13,7 @@ import Footer from "../TestReport/Footer/Footer";
 const Printing = React.forwardRef((props, ref) => {
  
   return (
-    <div ref={ref}>
+    <div ref={ref} className="printing-container">
       <HeaderComponent />
       <TestDetails />
       <TestResults />

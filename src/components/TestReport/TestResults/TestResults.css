@@ -2,6 +2,8 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  font-size: 0.8em;
+
 }
 
 td, th {
@@ -16,4 +18,5 @@ tr:nth-child(even) {
 .test-results-title {
   margin: 0 auto;
   text-align: center;
+  margin-top: 0;
 }

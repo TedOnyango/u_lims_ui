@@ -10,21 +10,22 @@ import DensityChart from "./components/Analytics/DensityChart";
 import Printing from "./components/Printing/Printing";
 
 
-
 export default function App() {
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
   });
   return (
-    <div>
+    <div className="wrapper">
+
       <NavBar />
+        <Printing ref={componentRef}/>
+        <button onClick={ handlePrint }>GeneratePdf</button>
       {/* <TestRequestRegister /> */}
       {/* <DensityChart /> */}
       {/* <Login /> */}
 
-      <Printing ref={componentRef}/>
-      <button onClick={ handlePrint }>GeneratePdf</button>
+      
      
     </div>
   );
