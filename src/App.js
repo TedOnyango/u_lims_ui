@@ -19,8 +19,8 @@ export default function App() {
     <div className="wrapper">
 
       <NavBar />
-        <Printing ref={componentRef}/>
-        <button onClick={ handlePrint }>GeneratePdf</button>
+        {/* <Printing ref={componentRef}/>
+        <button onClick={ handlePrint }>GeneratePdf</button> */}
       {/* <TestRequestRegister /> */}
       {/* <DensityChart /> */}
       {/* <Login /> */}
